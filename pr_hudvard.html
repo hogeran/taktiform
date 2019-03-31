@@ -1,0 +1,315 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Taktiform</title>
+<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="media/styles.css" />
+<script type="text/javascript" src="jQuery.js"></script>
+<script type="text/javascript">
+
+jQuery(document).ready(function() {	
+
+	jQuery("#order_form").submit(function() {
+		
+		var message = "";
+		
+		if($("#name").val() == "" || $("#phone").val() == "" || $("#email").val() == "" || $("#address").val() == "" || $("#street").val() == "" || $("#zip").val() == "" || $("#city").val() == "") {
+			
+			if($("#name").val() == "") {
+				message += "Du glömde fylla i ditt namn!";
+			}
+			else if($("#phone").val() == "") {
+				message += "Du glömde fylla i ditt telefonnummer!";
+			}
+			else if($("#email").val() == "") {
+				message += "Du glömde fylla i din epost!";
+			}
+			else if($("#del_name").val() == "") {
+				message += "Du glömde fylla i ditt namn för leverans!";
+			}
+			else if($("#street").val() == "") {
+				message += "Du glömde fylla i din adress!";
+			}
+			else if($("#zip").val() == "") {
+				message += "Du glömde fylla i ditt postnummer!";
+			}
+			else if($("#city").val() == "") {
+				message += "Du glömde fylla i din postort!";
+			}
+			
+		alert(message);
+		return false;			
+		
+		}
+		
+	});
+	
+});
+</script>
+</head>
+<body >
+
+<div class="StructureOuter">
+
+<div class="StructureTop">
+
+
+<div class="leftTop">
+<p class="taktiform"><span class="taktiform taktiform-thick">takti</span>form<span class="taktiform taktiform-reg">®</span></p>
+</div>
+
+<div class="rightTop">
+<p class="top_p">
+För friskvård och omsorg
+</p>
+</div>
+
+
+</div>
+	
+<table border=0 cellpadding=0 cellspacing=0 style="width:100%;">
+<tr>
+<td>
+<div class="StructureMenu">
+<div class="menu_bg_top">
+</div>
+<ul>
+<li><a href="index.php" class=" start_link">Start</a></li>
+                
+<li><a href="pr_hudvard.php" class="current startpaket_link">Hudv&aring;rd, oljor, startpaket</a></li>
+
+<li><a href="pr_ulltofflortacke.php" class=" varme_link">V&auml;rme <span class="and">och</span> mjukdjur</a></li>
+
+<li><a href="pr_litteratur.php" class=" bocker_link">LITTERATUR</a></li>
+
+<li><a href="pr_musik.php" class=" musik_link">Musik</a></li>
+
+<li><a href="pr_laromedel.php" class=" musik_link">l&auml;romedel</a></li>
+
+<li><a href="pr_trojvaska.php" class=" trojor_link">ARBETSUTRUSTNING</a></li>
+                
+<li><a href="pr_startpaket.php" class=" musik_link">massageb&auml;nk</a></li>
+                                
+                
+<li><a href="om_villkor.php"  class=" musik_link"><span class="and">Kontakt/F&ouml;rs&auml;ljningsvillkor</span></a></li>
+</ul>
+  
+<div class="menu_bg_bottom">
+</div>   
+</div>
+</td>
+ <td>
+<div class="StructureContent">
+<div class="content_top">
+</div>
+<div class="StructureContentInner">
+
+
+
+		
+<div class="HudImages">
+
+<h1>
+Hudv&aring;rd, Oljor och Startpaket
+</h1>
+
+
+<p>
+Vårt sortiment är utvecklat för att användas i livets olika skeeenden, både baby och äldre, för frisk och hud med småsår. Används vid sol, bad, dusch.Perfekt att ta bort makeup med. Stimulerar blodcirkulation och sårläkning och är helt fantastisk att ge massage med. Gjord på exklusiva vegetabiliska och ekologiskt odlade produkter:
+</p>
+<p>
+JOJOBAOLJA är lyxig, sammetslen, mjukgörande och fuktighetsbevarande.<br>
+SHEASMÖR är mild, bra vid känslig hud, är som balsam för torr, narig sprucken hud.<br>
+SOLROSOLJAN är en ”torr” olja Absorberas lätt. Är skyddande och näringsrik.<br>
+RAPSOLJA är mjukgörande och näringsrik. Mycket bra vid kåda och irritationer.<br>
+MANDARIN/CITRON, frisk och uppiggande. Finns i MORGON.<br>
+LAVENDEL bra vid klåda och irriterad hud. Finns i LAVENDEL.<br>
+ROSMARIN värmande och lindrande Finns i ULLSALVA.<br>
+Alla oljor har hög halt av E-vitamin som antioxidant. Stimulerar blodcirkulation och sårläkning.
+</p>
+
+	<div class="Product ProductRight">
+    <div class="topRight">
+		</div>
+<!--		<h6>
+			<span class="ProductNumber"></span>
+					</h6>-->
+		<p>
+			<img src="media/images/pr_olja_neutral_stor.jpg" class="ProductImage" />            3017			STORFLASKA NEUTRAL  <br />
+Ett ekonomiskt alternativ. <br />
+Folder med tips ing&aring;r. <br />
+1 liter.<br />
+			<!--<span class="ProductPrice">Pris:  kr</span>-->
+		</p>
+		<form action="" method="post">
+			<input type="hidden" name="AddProductId" value="3017" />
+			<button type="submit" name="Submit" value="+ KÖP" class="Button">+ KÖP (680 kr)</button>
+		</form>
+        <div class="bottomRight">
+		</div>
+	</div>
+		<div class="Product ProductHalf">
+    <div class="topHalf">
+		</div>
+<!--		<h6>
+			<span class="ProductNumber"></span>
+					</h6>-->
+		<p>
+			<img src="media/images/pr_olja_neutral.jpg" class="ProductImage" />            3010			NEUTRAL HUDOLJA<br />
+F&ouml;r alla. Passar &auml;ven baby och k&auml;nslig hud. Luktfri<br />
+Folder med tips ing&aring;r.<br />
+150 ml			<!--<span class="ProductPrice">Pris:  kr</span>-->
+		</p>
+		<form action="" method="post">
+			<input type="hidden" name="AddProductId" value="3010" />
+			<button type="submit" name="Submit" value="+ KÖP" class="Button">+ KÖP (140 kr)</button>
+		</form>
+        <div class="bottomHalf">
+		</div>
+	</div>
+		<div class="Product ProductHalf">
+    <div class="topHalf">
+		</div>
+<!--		<h6>
+			<span class="ProductNumber"></span>
+					</h6>-->
+		<p>
+			<img src="media/images/pr_olja_morgon.jpg" class="ProductImage" />            3011			MORGON med Mandarin/Citron<br />
+Mild och uppiggande.<br />
+Folder med tips ing&aring;r.<br />
+150 ml<br />
+			<!--<span class="ProductPrice">Pris:  kr</span>-->
+		</p>
+		<form action="" method="post">
+			<input type="hidden" name="AddProductId" value="3011" />
+			<button type="submit" name="Submit" value="+ KÖP" class="Button">+ KÖP (150 kr)</button>
+		</form>
+        <div class="bottomHalf">
+		</div>
+	</div>
+		<div class="Product ProductHalf">
+    <div class="topHalf">
+		</div>
+<!--		<h6>
+			<span class="ProductNumber"></span>
+					</h6>-->
+		<p>
+			<img src="media/images/pr_olja_afton.jpg" class="ProductImage" />            3012			AFTON: Med lavendel. <br />
+Lugnande och avslappnande.<br />
+Folder med tips ing&aring;r.<br />
+150 ml<br />
+			<!--<span class="ProductPrice">Pris:  kr</span>-->
+		</p>
+		<form action="" method="post">
+			<input type="hidden" name="AddProductId" value="3012" />
+			<button type="submit" name="Submit" value="+ KÖP" class="Button">+ KÖP (150 kr)</button>
+		</form>
+        <div class="bottomHalf">
+		</div>
+	</div>
+		<div class="Product ProductFull">
+    <div class="topFull">
+		</div>
+<!--		<h6>
+			<span class="ProductNumber"></span>
+					</h6>-->
+		<p>
+			<img src="media/images/pr_olja_ansikts.jpg" class="ProductImage" />            3021			ANSIKTSOLJA f&ouml;r din k&auml;nsligaste hud. Len, mjukg&ouml;rande och fuktighetsbevarande Lyxig,mild och dryg. Ger skydd, n&auml;ring o gyllene lyster Inneh&aring;ller aprikosolja, macadamirapsolja och e-vitamin samt karoten som ger f&auml;rg.<br />
+25 ml			<!--<span class="ProductPrice">Pris:  kr</span>-->
+		</p>
+		<form action="" method="post">
+			<input type="hidden" name="AddProductId" value="3021" />
+			<button type="submit" name="Submit" value="+ KÖP" class="Button">+ KÖP (150 kr)</button>
+		</form>
+        <div class="bottomFull">
+		</div>
+	</div>
+		<div class="Product ProductFull">
+    <div class="topFull">
+		</div>
+<!--		<h6>
+			<span class="ProductNumber"></span>
+					</h6>-->
+		<p>
+			<img src="media/images/pr_ullsalva.jpg" class="ProductImage" />            3023			ULLSALVA Bra f&ouml;r torra l&auml;ppar, h&auml;nder, hudsprickor, nagelband, sm&aring;s&aring;r, psoriasis. Bra till barnstj&auml;rtar och &ouml;mma br&ouml;stv&aring;rtor. Lindrar skyddar och mjukg&ouml;r. Effektivt vattenavst&ouml;tande. Inneh&aring;ller ullfett, sheasm&ouml;r, e-vitamin och Rosmarin<br />
+50 ml			<!--<span class="ProductPrice">Pris:  kr</span>-->
+		</p>
+		<form action="" method="post">
+			<input type="hidden" name="AddProductId" value="3023" />
+			<button type="submit" name="Submit" value="+ KÖP" class="Button">+ KÖP (150 kr)</button>
+		</form>
+        <div class="bottomFull">
+		</div>
+	</div>
+	
+	<div class="Product ProductFull">
+    <div class="topFull">
+		</div>
+<!--		<h6>
+			<span class="ProductNumber"></span>
+					</h6>-->
+		<p>
+			<img src="media/images/pr_startpaket.jpg" class="ProductImage" />            3083			STARTPAKET ” Taktila Toner”<br />
+Hudolja NEUTRAL &aacute; 150 ml<br />
+Hudolja MORGON a&acute;150 ml<br />
+Hudolja AFTON &aacute; 150 ml<br />
+V&auml;rmeflaska f&ouml;r varmt vatten<br />
+Musik CD - ”Taktila Toner ”<br />
+			<!--<span class="ProductPrice">Pris:  kr</span>-->
+		</p>
+		<form action="" method="post">
+			<input type="hidden" name="AddProductId" value="3083" />
+			<button type="submit" name="Submit" value="+ KÖP" class="Button">+ KÖP (760 kr)</button>
+		</form>
+        <div class="bottomFull">
+		</div>
+	</div>
+		<div class="Product ProductFull">
+    <div class="topFull">
+		</div>
+<!--		<h6>
+			<span class="ProductNumber"></span>
+					</h6>-->
+		<p>
+			<img src="media/images/pr_startpaket_2.jpg" class="ProductImage" />            3082			STARTPAKET ”I lugn och Ro”<br />
+Hudolja NEUTRAL &aacute; 150 ml<br />
+Hudolja MORGON a&acute;150 ml<br />
+Hudolja AFTON &aacute; 150 ml<br />
+V&auml;rmeflaska f&ouml;r varmt vatten<br />
+Musik CD - ”I lugn och Ro ”<br />
+			<!--<span class="ProductPrice">Pris:  kr</span>-->
+		</p>
+		<form action="" method="post">
+			<input type="hidden" name="AddProductId" value="3082" />
+			<button type="submit" name="Submit" value="+ KÖP" class="Button">+ KÖP (760 kr)</button>
+		</form>
+        <div class="bottomFull">
+		</div>
+	</div>
+	
+<div class="ProductClearing">&nbsp;</div>
+
+<!--<p>
+	Vår ansiktsolja har vi utvecklat för att tillgodose behovet av en extra mjuk olja som passar ansiktets känsliga hud. Ansiktsoljans egenskaper är att ge skydd och näring. Ger också en gyllene lyster. 35 ml.
+</p>
+-->
+
+
+
+<!--<p>
+	Fåren är tåliga och ger oss en fantastisk naturlig produkt. Den är basen i vår unika ullsalva som är återfuktande och mjukgörande. För torra läppar, nagelband och självsprickor, samt till både små och stora som använder blöja. Används också vid psoriasis, skav- och småsår. Är huden fuktig utvecklas lanolin.  50 ml.
+</p>-->
+</div><!-- .HudImages -->
+<div class="clear"></div>
+</div>
+<div class="content_bottom">
+</div>
+</div>
+</td></tr></table>
+<div class="clear">
+</div>
+</div>
+
+</body>
+</html>

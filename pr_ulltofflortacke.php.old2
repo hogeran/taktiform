@@ -1,0 +1,57 @@
+<?
+	include("php/init.php");
+	
+	include("php/html_top.php");
+?>
+<h1>
+	värme och mjukdjur
+</h1>
+<!--<h2>
+	Ull i modern form
+</h2>-->
+
+<p>
+MJUKDJUR med värme, stor hänsyn till funktion och hygieniska krav. För att aktivera och ge lugn och ro.
+</p>
+
+<!--<p>
+	<img src="media/images/pr_ulltofflor.jpg" class="ProductSetRight" />
+	ULLTOFFLOR: Varma, mjuka, lätta tofflor. Tofflorna är dubbla - har ull på både ut- och insidan vilket gör dem
+	extra värmande. För  inomhusmiljö skyddar fötter mot kalla golv och till sängliggande, rullstolsburna personer
+	som behöver extra värme. Flexibla storlekar:
+</p>-->
+
+<? ShowProduct(3031, 'Full'); ?>
+<? ShowProduct(3035, 'Full'); ?>
+<? //ShowProduct(3037, 'Full'); ?>
+<? ShowProduct(3030, 'Full'); ?>
+<!--<p>
+ULLprodukter av finfibrig mjuk ull, mjuk och följsam, inte "kliig".
+</p>-->
+<? // ShowProduct(3024, 'Full'); ?>
+
+<!--<p>
+Våra ulltofflor är suveräna för alla men speciellt för personer som inte är så rörliga  
+Tillverkade i ren ull, lätta, mjuka och varma Tofflorna är "dubbla": 
+ull  på både in och utsidan. Finns i tre flexibla storlekar.
+
+</p>-->
+
+<? //ShowProduct(3025, 'Third'); ?>
+<? //ShowProduct(3026, 'Third'); ?>
+<? //ShowProduct(3027, 'Third'); ?>
+
+<!--<img src="media/images/tofflor.jpg" alt="Ulltofflor"/>-->
+
+<? ShowProductClearing(); ?>
+
+<!--<p>
+	<img src="media/images/pr_ulltacke.jpg" class="ProductSetRight" />
+	TUNGT  ULLTÄCKE: Vi har utvecklat ett fantastiskt täcke som passar både stora och små. Tyngden gör att man blir
+	helt omsluten och känner kroppens gräns, ger lugn, ro och bättre sömn. Passar även att ligga på både i sängen och
+	på massagebänken. Mått: 130 x 180 cm.
+</p>-->
+
+
+
+<? include("php/html_bot.php"); ?>

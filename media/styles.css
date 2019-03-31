@@ -1,0 +1,752 @@
+body {
+	margin: 10px 0px 0px 0px;
+	padding: 0px;
+	background: #f4f2eb;
+    background-image: url(images/hav.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+	background-position: bottom;
+	font-family: Arial, Sans-Serif;
+	font-size: 12px;
+	line-height: 18px;
+	color: #469;
+}
+
+body.BodyFront {
+	//background: #f4f2eb url('images/start-bg.jpg') top center no-repeat;
+}
+
+td, th {
+	text-align: left;
+	vertical-align: top;
+}
+
+img {
+	border: 0;
+}
+
+a {
+	color: #469;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0px 0px 15px 0px;
+}
+
+h1 {
+	font-size: 20px;
+	margin: 0px 0px 10px 0px;
+	padding: 0px;
+	line-height: 29px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+div.leftTop {
+	float: left;
+	width: 200px;	
+}
+
+div.rightTop {
+	float: right;
+	width: 628px;	
+}
+
+p.top_p {
+	margin: 15px 0px 0px 23px;
+	padding: 0px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+p.top_p img {
+	margin: 0px 16px 0px 0px;
+	padding: 0px;
+}
+
+h2 {
+	font-size: 16px;
+	line-height: 23px;
+}
+
+h2.start {
+	color: #00693f;
+	margin: 0 0 25px 10px;
+}
+
+h3 {
+	font-size: 14px;
+	line-height: 21px;
+}
+
+h4 {
+	font-size: 14px;
+	line-height: 21px;
+}
+
+h5 {
+	font-size: 14px;
+	line-height: 21px;
+}
+
+h6 {
+	font-size: 14px;
+	line-height: 21px;
+}
+
+
+input, textarea, button {
+	width: 95%;
+	padding: 2px 2px;
+	border: 1px solid #eeeeee;
+	border-top-color: #cccccc;
+	border-left-color: #cccccc;
+	color: #000000;
+}
+
+input.Button, button {
+	width: auto;
+	padding: 1px 10px 3px 10px;
+	border-top-color: #fff5cd;
+	border-left-color: #fff5cd;
+	border-bottom-color: #dcbe6e;
+	border-right-color: #dcbe6e;
+	background: #ffffff;
+}
+
+div.StructureOuter {
+	width: 830px;
+	margin: 0px auto;
+	padding: 25px;
+	background: #dfe9fd;
+	-webkit-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.5);
+	box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.5);
+}
+
+div.StructureOuterHome {
+    width: 830px;
+    margin: 0px auto;
+    padding: 25px;
+    background: #dfe9fd;
+    background-image: url(images/front-transp.png);
+    background-size: auto;
+    background-attachment: fixed;
+    background-position: top;
+    -webkit-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.5);
+	// height: 100vh;
+}
+
+div.StructureContent {
+	color: #000;
+}
+
+div.content_top {
+	margin: 0px;
+	padding: 0px;
+	width: 625px;
+	height: 10px;
+	background: url('images/content_top.png') left top no-repeat;
+}
+
+div.content_bottom {
+	margin: 0px;
+	padding: 0px;
+	width: 625px;
+	height: 10px;
+	background: url('images/content_bottom.png') left bottom no-repeat;
+}
+
+div.StructureContentInner {
+	background-color: #FFF;
+	margin: 0px;
+	padding: 10px 20px 10px 20px;
+	
+}
+
+
+
+/*
+
+Start page buttons
+
+*/
+
+a#catalogue {
+	padding: 7px 10px 10px 10px;
+	margin-left: 50px;
+	font-weight: bold;
+	font-size: 14px;
+	text-decoration: none;
+	float: left;
+	text-align: center;
+	border: 2px solid #ffe1ad;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background-color: #f9bf5c;
+}
+
+a#video {
+	padding: 7px 10px 10px 10px;
+	margin-right: 50px;
+	font-weight: bold;
+	font-size: 14px;
+	text-decoration: none;
+	float: right;
+	text-align: center;
+	border: 2px solid #f9ce85;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background-color: #f9bf5c;
+}
+
+a#catalogue:hover, a#video:hover  {
+	background-color: #f9cc7f;
+}
+
+/*
+/////////////////////////////////////////////////////////
+
+Menu
+
+/////////////////////////////////////////////////////////
+*/
+
+div.StructureMenu {
+	width: 184px;
+	/*height: 275px;*/
+	margin: 0px 22px 20px 0px;
+	padding: 2px 0px 2px 0px;
+	text-transform: uppercase;
+	background-color: #FFF;
+	/*background: url('images/menu_bg.jpg') center center no-repeat;*/
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #469;
+}
+
+/*
+div.menu_bg_top {
+	margin: 0px;
+	padding: 0px;
+	width: 184px;
+	height: 10px;
+	background: url('images/menu_bg_top.png') left top no-repeat;
+}
+
+
+div.menu_bg_bottom {
+	margin: 0px;
+	padding: 0px;
+	width: 184px;
+	height: 10px;
+	background: url('images/menu_bg_bottom.png') left bottom no-repeat;
+}
+*/
+div.StructureMenu ul {
+	margin: 0px;
+	padding: 0px 0px 0px 7px;
+	list-style-type: none;
+}
+
+div.StructureMenu li {
+	padding: 0px;
+	margin: 0px 0px 0px 0px;
+}
+
+div.StructureMenu li a {
+	display: block;
+	background: url('images/menu_link_bg.png') left center no-repeat;
+	padding: 5px 0px 5px 4px;
+	text-decoration: none;
+}
+
+div.StructureMenu li a.startpaket_link {
+	background: url('images/menu_link_bg_big.png') left center no-repeat;
+}
+
+div.StructureMenu li a.kontakt_link {
+	background: url('images/menu_link_bg_big.png') left center no-repeat;
+}
+
+div.StructureMenu li a.kontakt_link:hover, div.StructureMenu li a.startpaket_link:hover {
+	background: url('images/menu_link_bg_big_current.png') left center no-repeat;
+}
+
+div.StructureMenu li a.kontakt_link.current, div.StructureMenu li a.startpaket_link.current {
+	background: url('images/menu_link_bg_big_current.png') left center no-repeat;
+}
+
+div.StructureMenu li a span.and {
+	text-transform: none;
+}
+
+div.StructureMenu li a:hover {
+	background: url('images/menu_link_current.png') left center no-repeat;
+}
+
+div.StructureMenu li a.current {
+	font-weight: bold;
+	background: url('images/menu_link_current.png') left center no-repeat;
+}
+
+
+/*
+/////////////////////////////////////////////////////////
+
+Cart mini
+
+/////////////////////////////////////////////////////////
+*/
+
+div.CartMini {
+	clear: both;
+	width: 184px;
+	/*background-color: #FFF;*/
+	margin: 0px 25px 20px 0px;
+	padding: 0px 0px 0px 0px;
+	/*background: url('images/menu_bg.jpg') left top repeat-y;*/
+}
+
+div.cart-mini-bg {
+	background: url('images/menu_bg.jpg') left top repeat-y;
+	background-color: #FFF;
+	padding-bottom: 15px;
+}
+
+div.CartMini h5 {
+	margin: 0px 0px 10px 10px;
+	padding: 0px;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+div.CartMini ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+div.CartMini li {
+	margin: 0px 0px 10px 10px;
+}
+
+div.CartMini li a {
+	margin: 0px;
+	padding: 0px;
+}
+
+/*
+////////////////////////////////////////////////////////////////////////////////
+
+Products
+
+////////////////////////////////////////////////////////////////////////////////
+*/
+
+
+div.Product {
+	float: left;
+	margin-bottom: 20px;
+}
+
+div.Product p {
+	margin: 0px 5px 15px 10px;
+	padding: 0px;
+}
+
+div.Product form {
+	padding: 0px 0px 10px 10px;
+}
+
+div.Product form {
+	margin: 0px;
+}
+
+div.Product img.ProductImage {
+	float: right;
+	margin: 0px 10px 0px 10px;
+	padding: 0px;
+}
+
+div.Product span.ProductPrice {
+	display: block;
+	padding-top: 6px;
+}
+
+div.Product input.Button {
+	font-size: 12px;
+	cursor: pointer;
+}
+
+div.ProductClearing {
+	margin: 0px;
+	padding: 0px;
+	clear: both;
+}
+
+
+
+
+div.ProductFull {
+	width: 585px;
+	background: url('images/full_bg.jpg') left top repeat-y;
+}
+
+div.topFull {
+	margin: 0px;
+	padding: 0px;
+	width: 585px;
+	height: 10px;
+	background: url('images/full_bg_top.jpg') left top no-repeat;
+}
+
+div.bottomFull {
+	clear: both;
+	margin: 0px;
+	padding: 0px;
+	width: 585px;
+	height: 10px;
+	background: url('images/full_bg_bottom.jpg') left bottom no-repeat;
+}
+
+
+div.ProductHalf {
+	width: 295px;
+	background: url('images/half_bg.jpg') left top repeat-y;
+}
+
+div.topHalf {
+	width: 295px;
+	margin: 0px;
+	padding: 0px;
+	height: 10px;
+	background: url('images/half_bg_top.jpg') left top no-repeat;
+}
+
+div.bottomHalf {
+	clear: both;
+	width: 295px;
+	margin: 0px;
+	padding: 0px;
+	height: 10px;
+	background: url('images/half_bg_bottom.jpg') left bottom no-repeat;
+}
+
+
+
+div.ProductHalfMusik {
+	width: 282px;
+	background: url('images/bright.jpg') left top repeat-y;
+}
+
+div.topHalfMusik {
+	width: 282px;
+	margin: 0px;
+	padding: 0px;
+	height: 10px;
+	background: url('images/bright_top.jpg') left top no-repeat;
+}
+
+div.bottomHalfMusik {
+	clear: both;
+	width: 282px;
+	margin: 0px;
+	padding: 0px;
+	height: 10px;
+	background: url('images/bright_bottom.jpg') left bottom no-repeat;
+}
+
+
+
+
+div.ProductHalfMusikLeft {
+	width: 282px;
+	margin-right: 20px;
+	background: url('images/b_left.jpg') left top repeat-y;
+}
+
+div.topHalfMusikLeft {
+	width: 282px;
+	margin: 0px;
+	padding: 0px;
+	height: 10px;
+	background: url('images/bleft_top.jpg') left top no-repeat;
+}
+
+div.bottomHalfMusikLeft {
+	clear: both;
+	width: 282px;
+	margin: 0px;
+	padding: 0px;
+	height: 10px;
+	background: url('images/bleft_bottom.jpg') left bottom no-repeat;
+}
+
+
+
+
+div.ProductThird {
+	width: 135px;
+	margin-right: 10px;
+	background: url('images/third_bg.jpg') left top repeat-y;
+}
+
+div.topThird {
+	width: 135px;
+	margin: 0px;
+	padding: 0px;
+	height: 10px;
+	background: url('images/third_bg_top.jpg') left top no-repeat;
+}
+
+div.bottomThird {
+	clear: both;
+	width: 135px;
+	margin: 0px;
+	padding: 0px;
+	height: 10px;
+	background: url('images/third_bg_bottom.jpg') left bottom no-repeat;
+}
+
+
+
+
+
+div.ProductBooks {
+	width: 425px;
+	background: url('images/books_bg.jpg') left top repeat-y;
+}
+
+div.topBooks {
+	width: 425px;
+	margin: 0px;
+	padding: 0px;
+	height: 10px;
+	background: url('images/books_bg_top.jpg') left top no-repeat;
+}
+
+div.bottomBooks {
+	clear: both;
+	width: 425px;
+	margin: 0px;
+	padding: 0px;
+	height: 10px;
+	background: url('images/books_bg_bottom.jpg') left bottom no-repeat;
+}
+
+
+
+
+div.ProductRight {
+	clear: both;
+	width: 275px;
+	float: right;
+	margin-top: 0px;
+	background: url('images/right_bg.jpg') left top repeat-y;
+}
+
+div.topRight {
+	margin: 0px;
+	padding: 0px;
+	width: 275px;
+	height: 10px;
+	background: url('images/right_bg_top.jpg') left top no-repeat;
+}
+
+div.bottomRight {
+	clear: both;
+	margin: 0px;
+	padding: 0px;
+	width: 275px;
+	height: 10px;
+	background: url('images/right_bg_bottom.jpg') left bottom no-repeat;
+}
+
+
+
+div.HudImages {
+	/*background: url('images/hud_bg.jpg') no-repeat top right;*/
+}
+
+/*
+////////////////////////////////////////////////////////////////////////////////
+
+Cart
+
+////////////////////////////////////////////////////////////////////////////////
+*/
+
+table.CartTable {
+	width: 580px;
+	margin-bottom: 40px;
+}
+
+table.CartTable th {
+	padding: 8px 5px 3px 5px;
+	background: #f9f9f9;
+	border-bottom: 1px solid #eee;
+	color: #777;
+}
+
+table.CartTable form {
+	display: inline;
+}
+
+table.CartTable td {
+	padding: 4px 5px;
+	border-bottom: 1px solid #f6f6f6;
+}
+
+table.CartTable .Name {
+	padding-left: 10px;
+}
+
+table.CartTable span.Number {
+	padding-left: 10px;
+	color: #777;
+}
+
+table.CartTable .Price {
+	text-align: right;
+}
+
+table.CartTable .Count {
+	text-align: right;
+}
+
+table.CartTable .Count2 {
+	padding-right: 10px;
+}
+
+table.CartTable input.Button {
+	height: 16px;
+	width: 16px;
+	padding: 0;
+}
+
+table.CartTable tr.Rebate td {
+	padding-top: 20px;
+}
+
+table.CartTable tr.Total td {
+	padding-top: 20px;
+}
+
+table.CartTable tr.Total td.Name {
+	font-weight: bold;
+}
+
+table.CartTable tr.Total td.Price {
+	font-weight: bold;
+}
+
+
+
+/*
+////////////////////////////////////////////////////////////////////////////////
+
+Order form
+
+////////////////////////////////////////////////////////////////////////////////
+*/
+
+
+form.OrderForm h4 {
+	margin-top: 20px;
+	margin-bottom: 10px;
+	padding-top: 20px;
+	border-top: 1px solid #f6f6f6;
+}
+
+form.OrderForm table {
+}
+
+form.OrderForm table th {
+	width: 100px;
+	text-align: right;
+	padding: 6px 26px 4px 4px;
+}
+
+form.OrderForm table td {
+	padding: 4px;
+}
+
+form.OrderForm table input {
+	width: 250px;
+}
+
+form.OrderForm table input.Small {
+	width: 80px;
+}
+
+form.OrderForm table input.Checkbox {
+	width: auto;
+}
+
+form.OrderForm table input.Button {
+	width: auto;
+	padding: 3px 10px 5px 10px;
+	font-weight: bold;
+	color: #945e00;
+}
+
+form.OrderForm table i {
+	font-style: normal;
+	color: #800;
+}
+
+form.OrderForm table.Button {
+	margin-top: 20px;
+	margin-bottom: 10px;
+	border-top: 1px solid #f6f6f6;
+}
+
+img.ProductSetRight {
+	float: right;
+	margin: 0 0 15px 15px;
+}
+
+
+form.OrderForm input.billingAddress {
+	float: left;
+	width: 32px;
+	padding-left: 0px;
+	margin-left: 0px;
+	border: none;
+}
+
+
+div.clear {
+	margin: 0px;
+	padding: 0px;
+	clear: both;
+}
+
+div.StructureTop {
+	margin: 0px 0px 20px 0px;
+	height: 45px;
+}
+
+p.taktiform{
+    margin: 0;
+    padding: 0;
+}
+
+.taktiform {
+    font-weight: 200;
+    font-family: "Roboto", sans-serif;
+    font-size: 45px;
+}
+.taktiform-thick{
+    font-weight: 700;
+}
+.taktiform-reg{
+    vertical-align: super;
+    font-size: 12px;
+}
