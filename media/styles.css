@@ -117,6 +117,13 @@ input.Button, button {
 }
 
 div.StructureOuter {
+    -ms-grid-columns: auto;
+    grid-template-columns: auto;
+    -ms-grid-rows: auto auto;
+    grid-template-rows: auto auto;
+    grid-template-areas: 
+        "top" 
+        "content";
 	width: 830px;
 	margin: 0px auto;
     max-width: 97%;
@@ -142,8 +149,12 @@ div.StructureOuterHome {
 	// height: 100vh;
 }
 .content-wrap {
-    display: flex;
-    align-items: flex-start;
+    display:-ms-grid;
+    display: grid;
+    grid-area: "content";
+    grid-template-columns: 184px auto;
+    -ms-grid-columns: 184px 20px auto;
+    grid-gap: 20px;
 }
 
 div.StructureContent {
@@ -156,6 +167,8 @@ div.StructureContent {
     border-width: 2px;
     border-style: solid;
     border-color: #469;
+    -ms-grid-row:1; 
+    -ms-grid-column:3;
 }
 
 /*div.content_top {
@@ -231,7 +244,7 @@ Menu
 
 div.StructureMenu {
     width: 184px;
-    /* height: 275px; */
+    height: 275px;
     margin: 0px 22px 20px 0px;
     padding: 5px 0;
     text-transform: uppercase;
@@ -243,6 +256,8 @@ div.StructureMenu {
     border-width: 2px;
     border-style: solid;
     border-color: #469;
+    -ms-grid-row:1; 
+    -ms-grid-column:1;
 }
 
 /*
@@ -772,6 +787,7 @@ div.clear {
 }
 
 div.StructureTop {
+    grid-area: "top";
     max-width: 100%;
     display: flex;
     margin: 0px 0px 20px 0px;
