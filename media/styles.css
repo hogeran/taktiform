@@ -1,15 +1,16 @@
 body {
-	margin: 10px 0px 0px 0px;
-	padding: 0px;
-	background: #f4f2eb;
-    background-image: url(images/hav.jpg);
-    background-size: cover;
+    margin: 10px 0px 0px 0px;
+    padding: 0px;
+    background: #f4f2eb;
+    background-image: url(images/830-foot-img-dog-storre.png), url(images/clouds.jpg);
+    background-size: contain, cover;
     background-attachment: fixed;
-	background-position: bottom;
-	font-family: Arial, Sans-Serif;
-	font-size: 12px;
-	line-height: 18px;
-	color: #469;
+    background-position: bottom, top;
+    background-repeat: no-repeat;
+    font-family: Arial, Sans-Serif;
+    font-size: 12px;
+    line-height: 18px;
+    color: #469;
 }
 
 body.BodyFront {
@@ -222,7 +223,7 @@ a#video {
 	font-weight: bold;
 	font-size: 14px;
 	text-decoration: none;
-	float: right;
+	float: left;
 	text-align: center;
 	border: 2px solid #f9ce85;
 	-moz-border-radius: 5px;
