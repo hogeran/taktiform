@@ -1,3 +1,6 @@
+* {
+   box-sizing: border-box;
+}
 body {
     margin: 10px 0px 0px 0px;
     padding: 0px;
@@ -44,15 +47,22 @@ h1 {
 }
 
 div.leftTop {
+    -moz-grid-column: 1;
+    -ms-grid-column: 1;
+    grid-column: 1;
+    /* display: block; */
     /* float: left; */
     /* width: 200px; */
-    margin-top: 3px;
+    /* margin-top: 3px; */
 }
 
 div.rightTop {
+    -moz-grid-column: 2;
+    -ms-grid-column: 2;
+    grid-column: 2;
     /* float: right; */
     /* width: 628px; */
-    margin-top: -7px;
+    /*margin-top: -7px;*/
 }
 
 p.top_p {
@@ -118,6 +128,8 @@ input.Button, button {
 }
 
 div.StructureOuter {
+    display: grid;
+    display: -ms-grid;
     -ms-grid-columns: auto;
     grid-template-columns: auto;
     -ms-grid-rows: auto auto;
@@ -149,17 +161,35 @@ div.StructureOuterHome {
     box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.5);
 	// height: 100vh;
 }
-.content-wrap {
-    display:-ms-grid;
+
+
+
+.content-wrap {-moz-grid-row: 1;
+    -ms-grid-row: 2;
+    grid-row: 2;
+    -moz-grid-column: 1;
+    -ms-grid-column: 1;
+    grid-column: 1;
+    display: -ms-grid;
     display: grid;
     grid-area: "content";
     grid-template-columns: 184px auto;
-    -ms-grid-columns: 184px 20px auto;
-    grid-gap: 20px;
+    -moz-grid-columns: 184px auto;
+    -ms-grid-columns: 184px auto;
+    grid-columns: 184px auto;
+    /*grid-gap: 20px;*/
 }
 
 div.StructureContent {
+    -moz-grid-row: 1;
+    -ms-grid-row: 1;
+    grid-row: 1 / span 3;
+    -ms-grid-row-span: 3;
+    -moz-grid-column: 2;
+    -ms-grid-column: 2;
+    grid-column: 2;
     color: #000;
+    margin: 0 0 0 22px;
     background-color: rgba(255, 255, 255, .5);
     /* background: url(images/menu_bg.jpg) center center no-repeat; */
     -webkit-border-radius: 7px;
@@ -168,8 +198,7 @@ div.StructureContent {
     border-width: 2px;
     border-style: solid;
     border-color: #469;
-    -ms-grid-row:1; 
-    -ms-grid-column:3;
+    
 }
 
 /*div.content_top {
@@ -243,9 +272,18 @@ Menu
 /////////////////////////////////////////////////////////
 */
 
+
+
+
 div.StructureMenu {
+    -moz-grid-row: 1;
+    -ms-grid-row: 1;
+    grid-row: 1;
+    -moz-grid-column: 1;
+    -ms-grid-column: 1;
+    grid-column: 1;
     width: 184px;
-    height: 275px;
+    /* height: 275px; */
     margin: 0px 22px 20px 0px;
     padding: 5px 0;
     text-transform: uppercase;
@@ -256,9 +294,7 @@ div.StructureMenu {
     border-radius: 7px;
     border-width: 2px;
     border-style: solid;
-    border-color: #469;
-    -ms-grid-row:1; 
-    -ms-grid-column:1;
+    border-color: #469;1
 }
 
 /*
@@ -340,12 +376,31 @@ Cart mini
 */
 
 div.CartMini {
-	clear: both;
-	width: 184px;
-	/*background-color: #FFF;*/
-	margin: 0px 25px 20px 0px;
-	padding: 0px 0px 0px 0px;
-	/*background: url('images/menu_bg.jpg') left top repeat-y;*/
+    -moz-grid-row: 2;
+    -ms-grid-row: 2;
+    grid-row: 2;
+    -moz-grid-column: 1;
+    -ms-grid-column: 1;
+    grid-column: 1;
+    /* clear: both; */
+    /* width: 184px; */
+    /* background-color: #FFF; */
+    /* margin: 0px 25px 20px 0px; */
+    /* padding: 0px 0px 0px 0px; */
+    /* background: url(images/menu_bg.jpg) left top repeat-y; */
+    width: 184px;
+    /* height: 275px; */
+    /*margin: 0px 22px 20px 0px;*/
+    padding: 5px 0;
+    /* text-transform: uppercase; */
+    background-color: rgba(255, 255, 255, .5);
+    /* background: url(images/menu_bg.jpg) center center no-repeat; */
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #469;
 }
 
 div.cart-mini-bg {
@@ -789,12 +844,24 @@ div.clear {
 }
 
 div.StructureTop {
+    -moz-grid-row: 1;
+    -ms-grid-row: 1;
+    grid-row: 1;
+    -moz-grid-column: 1;
+    -ms-grid-column: 1;
+    grid-column: 1;
     grid-area: "top";
     max-width: 100%;
-    display: flex;
+    display: -ms-grid;
+    display: grid;
+    grid-template-columns: 184px auto;
+    -moz-grid-columns: 184px auto;
+    -ms-grid-columns: 184px auto;
+    grid-columns: 184px auto;
+    align-items: center;
     margin: 0px 0px 20px 0px;
     padding: 10px 10px;
-    height: 33px;
+    height: 64px;
     background-color: rgba(255, 255, 255, .5);
     -webkit-border-radius: 7px;
     -moz-border-radius: 7px;
