@@ -409,9 +409,14 @@ div.CartMini {
 }
 
 div.cart-mini-bg {
-	background: url('images/menu_bg.jpg') left top repeat-y;
-	background-color: #FFF;
-	padding-bottom: 15px;
+    background-color: rgba(223, 233, 253, .8);
+    /* background: url(images/menu_bg.jpg) center center no-repeat; */
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    border-width: 2px;
+    padding: 1px;
+    margin: 5px;
 }
 
 div.CartMini h5 {
