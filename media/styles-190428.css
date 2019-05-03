@@ -190,7 +190,7 @@ div.StructureContent {
     grid-column: 2;
     color: #000;
     margin: 0 0 0 22px;
-    background-color: rgba(255, 255, 255, .5);
+    background-color: rgba(255, 255, 255, .65);
     /* background: url(images/menu_bg.jpg) center center no-repeat; */
     -webkit-border-radius: 7px;
     -moz-border-radius: 7px;
@@ -292,7 +292,7 @@ div.StructureMenu {
     margin: 0px 22px 20px 0px;
     padding: 5px 0;
     text-transform: uppercase;
-    background-color: rgba(255, 255, 255, .5);
+    background-color: rgba(255, 255, 255, .65);
     /* background: url(images/menu_bg.jpg) center center no-repeat; */
     -webkit-border-radius: 7px;
     -moz-border-radius: 7px;
@@ -398,7 +398,7 @@ div.CartMini {
     /*margin: 0px 22px 20px 0px;*/
     padding: 5px 0;
     /* text-transform: uppercase; */
-    background-color: rgba(255, 255, 255, .5);
+    background-color: rgba(255, 255, 255, .65);
     /* background: url(images/menu_bg.jpg) center center no-repeat; */
     -webkit-border-radius: 7px;
     -moz-border-radius: 7px;
@@ -886,7 +886,7 @@ div.StructureTop {
     margin: 0px 0px 20px 0px;
     padding: 10px 10px;
     height: 64px;
-    background-color: rgba(255, 255, 255, .5);
+    background-color: rgba(255, 255, 255, .65);
     -webkit-border-radius: 7px;
     -moz-border-radius: 7px;
     border-radius: 7px;
