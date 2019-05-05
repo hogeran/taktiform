@@ -27,7 +27,10 @@ f.n. 2% per m&aring;nad. Vi f&ouml;rbeh&aring;ller oss &auml;gander&auml;tten ti
 
 <p>Kontrollera varorna direkt n&auml;r de kommer. Synlig skada eller skadat gods skall anm&auml;las till transport&ouml;ren. Eventuella reklamationer skall meddelas skriftligt inom &aring;tta dagar. F&ouml;r ej utl&ouml;sta paket f&ouml;rbeh&aring;ller vi oss r&auml;tten att debitera kostnaden f&ouml;r returfrakt, administration och hantering, f.n. 280:- </p>
 
-<p>Taktils kursg&aring;rd <a href="http://www.arstaholmar.se" target="_blank">www.arstaholmar.se</a> &Aring;rsta Holmars G&auml;sthus n&aring;s via <a href="mailto:arstaholmar@live.se">arstaholmar@live.se</a></p>
+<p>V&aring;r kursg&aring;rd <a href="http://www.arstaholmar.se" target="_blank">www.arstaholmar.se</a> &Aring;rsta Holmars G&aring;rd n&aring;s via <a href="mailto:kontakt@arstaholmar.se">kontakt@arstaholmar.se</a></p>
+
+<h3>GDPR:</h3>
+<p>Syftet med dina kontaktuppgifter &auml;r att kunna administrera dina k&ouml;p samt kunna komma i kontakt med dig vid behov. N&auml;r du samtycker godk&auml;nner du att dina uppgifter anv&auml;nds endast f&ouml;r detta &auml;ndam&aring;l och du har r&auml;tt  att n&auml;r som helst beg&auml;ra ett utdrag eller f&aring; dina kontaktuppgifter borttagna.</p>
 
 <?
 	include("php/html_bot_new.php");
