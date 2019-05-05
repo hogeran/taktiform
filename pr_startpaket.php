@@ -1,7 +1,7 @@
 <?
 	include("php/init.php");
 	
-	include("php/html_top.php");
+	include("php/html_top_new.php");
 ?>
 
 	<h1>
@@ -12,11 +12,11 @@ massageb&auml;nk &amp; arbetsstol Enkla att hantera
 	</p>
 
 	<? ShowProduct(3032, 'Full'); ?>
-		<? //ShowProduct(3093, 'Full'); ?>
+    <? //ShowProduct(3093, 'Full'); ?>
 
-			<? ShowProductClearing(); ?>
+    <? ShowProductClearing(); ?>
 
 
-				<?
-	include("php/html_bot.php");
+<?
+	include("php/html_bot_new.php");
 ?>

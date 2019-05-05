@@ -609,9 +609,15 @@ div.bottomHalfMusikLeft {
 
 
 div.ProductThird {
-	width: 135px;
-	margin-right: 10px;
-	background: url('images/third_bg.jpg') left top repeat-y;
+    width: 135px;
+    margin-right: 10px;
+    background-color: rgba(255, 255, 255, .5);
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #469;
 }
 
 div.topThird {
@@ -619,7 +625,7 @@ div.topThird {
 	margin: 0px;
 	padding: 0px;
 	height: 10px;
-	background: url('images/third_bg_top.jpg') left top no-repeat;
+/*	background: url('images/third_bg_top.jpg') left top no-repeat;*/
 }
 
 div.bottomThird {
@@ -628,7 +634,7 @@ div.bottomThird {
 	margin: 0px;
 	padding: 0px;
 	height: 10px;
-	background: url('images/third_bg_bottom.jpg') left bottom no-repeat;
+/*	background: url('images/third_bg_bottom.jpg') left bottom no-repeat;*/
 }
 
 

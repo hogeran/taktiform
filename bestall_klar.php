@@ -1,7 +1,7 @@
 <?
 	include("php/init.php");
 	
-	include("php/html_top.php");
+	include("php/html_top_new.php");
 ?>
 
 
@@ -18,5 +18,5 @@
 
 
 <?
-	include("php/html_bot.php");
+	include("php/html_bot_new.php");
 ?>

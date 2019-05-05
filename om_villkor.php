@@ -1,7 +1,7 @@
 <?
 	include("php/init.php");
 	
-	include("php/html_top.php");
+	include("php/html_top_new.php");
 ?>
 
 
@@ -30,5 +30,5 @@ f.n. 2% per m&aring;nad. Vi f&ouml;rbeh&aring;ller oss &auml;gander&auml;tten ti
 <p>Taktils kursg&aring;rd <a href="http://www.arstaholmar.se" target="_blank">www.arstaholmar.se</a> &Aring;rsta Holmars G&auml;sthus n&aring;s via <a href="mailto:arstaholmar@live.se">arstaholmar@live.se</a></p>
 
 <?
-	include("php/html_bot.php");
+	include("php/html_bot_new.php");
 ?>
