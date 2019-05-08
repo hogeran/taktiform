@@ -21,7 +21,7 @@ function ShowProduct($number, $size = 'Full')
 		</p>
 		<form action="" method="post">
 			<input type="hidden" name="AddProductId" value="<?=$arrProducts[$number]['number']?>" />
-			<button type="submit" name="Submit" value="+ KÖP" class="Button">+ KÖP (<?=$arrProducts[$number]['price']?> kr)</button>
+			<button type="submit" name="Submit" value="+ KÖP" class="Button">+ KÖP <?=$arrProducts[$number]['price']?> kr</button>
 		</form>
         <div class="bottom<?=$size?>">
 		</div>

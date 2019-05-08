@@ -45,11 +45,11 @@
 		
 		if (!mail($mailTo, $mailSubject, $mailMessage, $mailFrom, '-forder@taktil.se'))
 		{
-			header("Location: http://www.taktiform.se/taktiform/12/bestall_klar.php?fail=email");
+			header("Location: http://www.taktiform.se/bestall_klar.php?fail=email");
 		}
 		else
 		{
-			header("Location: http://www.taktiform.se/taktiform/12/bestall_klar.php");
+			header("Location: http://www.taktiform.se/bestall_klar.php");
 			session_destroy();
 		}
 		
