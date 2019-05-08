@@ -728,7 +728,7 @@ Cart
 */
 
 table.CartTable {
-	width: 580px;
+	width: 100%;
 	margin-bottom: 40px;
 }
 
@@ -759,6 +759,7 @@ table.CartTable span.Number {
 
 table.CartTable .Price {
 	text-align: right;
+    width: 65px;
 }
 
 table.CartTable .Count {
@@ -767,6 +768,7 @@ table.CartTable .Count {
 
 table.CartTable .Count2 {
 	padding-right: 10px;
+    width: 51px;
 }
 
 table.CartTable input.Button {
@@ -813,7 +815,7 @@ form.OrderForm table {
 }
 
 form.OrderForm table th {
-	width: 100px;
+	width: 115px;
 	text-align: right;
 	padding: 6px 26px 4px 4px;
 }
@@ -823,7 +825,7 @@ form.OrderForm table td {
 }
 
 form.OrderForm table input {
-	width: 250px;
+	width: 150px;
 }
 
 form.OrderForm table input.Small {
