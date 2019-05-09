@@ -119,6 +119,7 @@ För friskvård och omsorg
 	
 <div class="content-wrap">
 <div class="StructureMenu">
+<p class="vertikal">MENY</p>
 <!--
 <div class="menu_bg_top">
 </div>
