@@ -68,7 +68,7 @@ div.rightTop {
 p.top_p {
 	margin: 0;
 	padding: 0px;
-	font-size: 18px;
+	font-size: 1.125rem;
 	font-weight: bold;
 }
 
@@ -883,17 +883,17 @@ div.StructureTop {
     -ms-grid-column: 1;
     grid-column: 1;
     grid-area: "top";
-    max-width: 100%;
+    max-width: 100vw;
     display: -ms-grid;
     display: grid;
-    grid-template-columns: 220px auto;
-    -moz-grid-columns: 220px auto;
-    -ms-grid-columns: 220px auto;
-    grid-columns: 220px auto;
+    grid-template-columns: 1fr 1fr;
+    -moz-grid-columns: 1fr 1fr;
+    -ms-grid-columns: 1fr 1fr;
+    grid-columns: 1fr 1fr;
     align-items: center;
     margin: 0px 0px 20px 0px;
-    padding: 10px 10px;
-    height: 64px;
+    padding: 5px 10px;
+    /* height: 64px; */
     background-color: rgba(255, 255, 255, .65);
     -webkit-border-radius: 7px;
     -moz-border-radius: 7px;
@@ -906,12 +906,13 @@ div.StructureTop {
 p.taktiform{
     margin: 0;
     padding: 0;
+    line-height: 1em;
 }
 
 .taktiform {
     font-weight: 200;
     font-family: "Roboto", sans-serif;
-    font-size: 45px;
+    font-size: 2.81rem;
 }
 .taktiform-thick{
     font-weight: 700;
@@ -919,4 +920,26 @@ p.taktiform{
 .taktiform-reg{
     vertical-align: super;
     font-size: 12px;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        margin: 0;
+    }
+    div.StructureOuter {
+        max-width: 100vw;
+    }
+    div.StructureTop {
+        max-width: 100vw;
+        padding: 5px;
+    }
+    .taktiform {
+        font-size: 2rem;
+    }
+    .taktiform-reg{
+        font-size: .7rem;
+    }
+    p.top_p {
+        font-size: .75rem;
+    }
 }
